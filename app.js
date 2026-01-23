@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello from Docker and Pipeline using GitHub Actions!\n');
+  res.end('Hello from Docker and GitHub Actions!\n');
 });
 
 server.listen(port, '0.0.0.0', () => {
